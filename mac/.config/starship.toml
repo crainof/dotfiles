@@ -1,0 +1,49 @@
+# 一行改行するか(デフォルト：true)
+add_newline = false
+
+# 表示される項目の順序の設定(基本デフォルトで良い)
+format = """\
+    $username\
+    $directory\
+    $line_break\
+    $git_branch\
+    $git_commit\
+    $git_state\
+    $git_status\
+    $character\
+    """
+
+# テキストが入力される場所を示す文字の設定
+[character]
+format = "❯❯ "
+success_symbol = "❯❯(bold green) "
+error_symbol = "❯❯(bold red) "
+
+# 改行自体の設定
+[line_break]
+disabled = true # 非表示に設定
+
+# 時間の設定
+[time]
+disabled = true # 非表示に設定すると、必ず一行になる
+
+# gitのブランチの表示
+[git_branch]
+symbol = "🌱 " #アイコン絵文字を変更
+
+# gitのstatusの表示
+[git_status]
+modified = "+" #ファイルの変更がある場合の表示を変更
+conflicted = "💥"
+ahead = "🏎💨"
+behind = "😰"
+diverged = "😵"
+untracked = "🌚"
+stashed = "📦"
+staged = "🔦"
+renamed = "🏷"
+deleted = "🗑"
+format = "$all_status$ahead_behind"
+
+[git_commit]
+tag_symbol = "🔖"
