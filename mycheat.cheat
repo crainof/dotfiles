@@ -1,0 +1,13 @@
+% tmux
+
+# popup
+prefix + Ctrl-p
+
+# navi
+prefix + Ctrl-g
+
+# save session
+prefix + Ctrl-s
+
+# restore session
+prefix + Ctrl-r

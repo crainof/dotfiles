@@ -1,0 +1,7 @@
+1. vimium
+2. Workone
+3. Bookmark slidebar
+4. SimpleExtManager
+5. Raindrop
+6. Bitworden
+7. Atom Material Icons
