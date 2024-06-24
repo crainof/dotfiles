@@ -31,12 +31,6 @@ autoload -Uz compinit && compinit
 
 #tmux source ~/.tmux.conf
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/yukaizuka/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/yukaizuka/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/yukaizuka/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/yukaizuka/google-cloud-sdk/completion.zsh.inc'; fi
-
 function peco-src () {
   local selected_dir=$(ghq list -p | peco --prompt="repositories >" --query "$LBUFFER")
   if [ -n "$selected_dir" ]; then
