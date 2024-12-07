@@ -5,3 +5,4 @@
 - link:
     ~/.zshrc: zshrc
     ~/.tmux.conf: .tmux.conf
+    ~/.gitconfig: .gitconfig

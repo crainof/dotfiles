@@ -1,0 +1,5 @@
+[user]
+	name = yk
+	email = test@example.com
+[ghq]
+	root = ~/MyRepo
