@@ -159,3 +159,4 @@ alias cat="bat"
 alias br="broot"
 
 source /Users/yukaizuka/.config/broot/launcher/bash/br
+alias proot='cd $(git rev-parse --show-toplevel)'
