@@ -1,0 +1,16 @@
+- block:
+  - name: homebrew update/upgrade
+    homebrew:
+      update_homebrew: true
+      upgrade_all: yes
+
+  - name: homebrew install
+    homebrew:
+      name: "{{ item }}"
+      state: latest
+    loop: 
+      - git
+      - wget
+      - mise
+  tags:
+    - homebrew

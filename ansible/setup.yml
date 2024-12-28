@@ -1,0 +1,10 @@
+- name: mac setup
+  hosts: localhost
+  connection: local
+  become: no
+  gather_facts: no
+  roles:
+    - role: common
+      tags: common
+      role: mise
+      tags: mise
