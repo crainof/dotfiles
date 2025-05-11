@@ -1,8 +1,0 @@
-- clean: ["~"]
-
-# require 4 spaces
-# https://github.com/anishathalye/dotbot/issues/8
-- link:
-    ~/.zshrc: .zshrc
-    ~/.tmux.conf: .tmux.conf
-    ~/.gitconfig: .gitconfig

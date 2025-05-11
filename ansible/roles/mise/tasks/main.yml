@@ -1,2 +1,8 @@
 - name: mise install neovim
   command: mise use -g neovim@0.10
+
+- name: mise install go
+  command: mise use -g go@1.21
+
+- name: mise install pkl
+  command: mise use -g pkl@0.27
